@@ -150,6 +150,16 @@ variable "tags" {
   default     = {}
 }
 
+
+#######
+# NBCU Variables
+#######
+
+variable "role_name" {
+  type    = string
+  default = ""
+}
+
 #######
 # Debug
 #######

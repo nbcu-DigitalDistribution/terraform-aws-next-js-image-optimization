@@ -18,6 +18,7 @@ module "image_optimizer" {
   version = "3.1.0"
 
   function_name = var.deployment_name
+  role_name     = var.role_name
   description   = "Managed by Terraform Next.js image optimizer"
   handler       = "handler.handler"
   runtime       = "nodejs14.x"
